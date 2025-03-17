@@ -21,7 +21,7 @@ A custom AutoHotkey v2.0 script for fast, intuitive LaTeX typing. Features short
 ## Quick Start
 
 1. **Install [AutoHotkey v2.0](https://www.autohotkey.com/)**
-2. Download or clone this repository
+2. Download and extract uTeX.zip
 3. Run `uTeX.ahk` or add a shortcut to startup
    ```C:\Users\"USER"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup```
 
