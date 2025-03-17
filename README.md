@@ -8,10 +8,10 @@ A custom AutoHotkey v2.0 script for fast, intuitive LaTeX typing. Features short
 - **Toggleable LaTeX Mode** → `Shift + CapsLock` with tray icon indicator (LaTeX Mode Off: Standard keyboard functionality)
 - **CapsLock Modifier** → `CapsLock` repurposed as a modifier (Original CapsLock toggle via double tap)
 - **Press Duration Dependant Key Remapping** → Short press less than 300 ms, long press greater than 300ms
-- **Row Numbers** → short press: symbol | long press: number
-- **Brackets, Symbols, Misc** → short press: default symbol | long press: secondary symbol
-- **Greek Letters** → `CapsLock + Character` (short press: lowercase | long press: uppercase)
-- **Functions & Operators** → `Alt + CapsLock + Character` (short press: primary function | long press: secondary function)
+- **Row Numbers** → Short press: symbol | Long press: number
+- **Brackets, Symbols, Misc** → Short press: default symbol | Long press: secondary symbol
+- **Greek Letters** → `CapsLock + Character` (Short press: lowercase | Long press: uppercase)
+- **Functions & Operators** → `Alt + CapsLock + Character` (Short press: primary function | Long press: secondary function)
 - **Quick Math Symbols** → `Alt + Character`
 - **Code Blocks** → Short press: `` ` `` | Long press: `` ``` `` | ``Shift + ` ``: `¬` 
 - **Shift Modifier** Unless stated otherwise, combing any shortcut with `Shift` will treat an input as a long press.
