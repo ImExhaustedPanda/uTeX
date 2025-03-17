@@ -14,7 +14,7 @@ A custom AutoHotkey v2.0 script for fast, intuitive LaTeX typing. Features short
 - **Functions & Operators** → `Alt + CapsLock + Character` (short press: primary function | long press: secondary function)
 - **Quick Math Symbols** → `Alt + Character`
 - **Code Blocks** → Short press: `` ` `` | Long press: `` ``` `` | ``Shift + ` ``: `¬` 
-- **Shift Modifier** Unless stated otherwise a combing any shortcut with `Shift` will treat an input as a long press.
+- **Shift Modifier** Unless stated otherwise, combing any shortcut with `Shift` will treat an input as a long press.
 
 ---
 
