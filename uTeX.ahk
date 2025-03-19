@@ -47,7 +47,7 @@ PressInput(Input, LongPress, ShortPress) {
         Return
     }
     PressTime := A_TickCount
-    SendInput("{Raw}" ShortPress)			; Send short press
+    SendInput("{Raw}" ShortPress)			; Send "ShortPress"
     KeyWait(Input)
     If (A_TickCount - PressTime > HoldThreshold) {	; If long press then
         Loop(StrLen(ShortPress))
