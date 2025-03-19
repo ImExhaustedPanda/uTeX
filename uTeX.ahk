@@ -3,8 +3,8 @@
 ; ========== GLOBAL SETTINGS ==========
 
 Global LaTeXMode := true			; Set LaTeX Mode Off to default by setting LaTeXMode := off
-Global CapsLockToggle := false		; Tracks toggle state of Caps Lock (via double press)
-Global CapsLockActive := false		; Sets CapsLock default state
+Global CapsLockToggle := false			; Tracks toggle state of Caps Lock (via double press)
+Global CapsLockActive := false			; Sets CapsLock default state
 Global HoldThreshold := 300			; Long-press threshold in milliseconds
 
 ; ========== LATEX MODE TOGGLE (Shift + CapsLock) ==========
@@ -42,17 +42,17 @@ CapsLock::{  ; Double-tap CapsLock within HoldThreshold to toggle its state
 ; ========== FUNCTION: HANDLE SHORT VS LONG PRESS ==========
 
 PressInput(Input, LongPress, ShortPress) {
-    If GetKeyState("Shift") {  ; Shift + Input → LongPress
+    If GetKeyState("Shift") {				; Shift + Input → LongPress
         SendInput("{Raw}" LongPress)
         Return
     }
     PressTime := A_TickCount
-    SendInput("{Raw}" ShortPress)					; Send short press
+    SendInput("{Raw}" ShortPress)			; Send short press
     KeyWait(Input)
     If (A_TickCount - PressTime > HoldThreshold) {	; If long press then
         Loop(StrLen(ShortPress))
-            Send("{BS}")							; Erase "ShortPress"
-        SendInput("{Raw}" LongPress)				; Send "LongPress"
+            Send("{BS}")				; Erase "ShortPress"
+        SendInput("{Raw}" LongPress)			; Send "LongPress"
 		Return
     }
 	Return
